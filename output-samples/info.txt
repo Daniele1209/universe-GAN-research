@@ -1,0 +1,5 @@
+Trained for:
+	111/2000 epochs
+
+Observations:
+	- padding is not a good strategy in this case, it generated replicated padding for new images
