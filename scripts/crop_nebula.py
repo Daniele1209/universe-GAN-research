@@ -1,11 +1,15 @@
+import cv2
+import os
+import numpy as np
 
-DIR = 'E:/DATA/Nebulae/train'
-OUT_DIR = 'E:/DATA/Nebulae/train-crop/'
+DIR = 'E:/DATA/Planets'
+OUT_DIR = 'E:/DATA/Planets-Crop/'
 
 if __name__ == '__main__':
     invalid_list = []
+    image_idx_name = 0
     for image_path in os.listdir(DIR):
-
+        image_idx_name += 1
         is_valid = True
         img = cv2.imread(DIR + '/' + image_path)
 
@@ -42,6 +46,6 @@ if __name__ == '__main__':
             # cv2.waitKey(0)
 
             # save image to output dir
-            cv2.imwrite(OUT_DIR+image_path, cropped_img)
+            cv2.imwrite(OUT_DIR+ str(image_idx_name) + '.jpg', cropped_img)
 
     print(invalid_list)
