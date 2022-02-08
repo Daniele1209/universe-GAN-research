@@ -90,19 +90,19 @@ Overall presentation:
 - we used about 1600 real long exposure post processed images
 - trained a light weight GAN for 600 epochs / 5000 epochs
 
-![generated-images-0614.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78253613-0f47-4b63-bcc5-c97a73868eb1/generated-images-0614.png)
+![generated-images-0614.png](https://i.postimg.cc/XvSSCBwK/generated-images-0614.png)
 
 - we can observe that even with only 600 epochs we have realistic looking nebulas (gathering high quality images might have helped a lot)
 
-![Generated using GAN](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84f56c13-e1e3-48f7-900e-91036480c097/output.jpg)
+![Generated using GAN](https://i.postimg.cc/QdRsJyrT/output.jpg)
 
 Generated using GAN
 
-![Real nebula image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4b1ae64c-c337-45f6-aaa3-67ed30b39cc2/0076.jpg)
+![Real nebula image](https://i.postimg.cc/TYNTpP7Q/0076.jpg)
 
 Real nebula image
 
-![Nebula after ESRGAN upscaling](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/25505548-4f1b-4920-ae45-478a1b047373/output_out.jpg)
+![Nebula after ESRGAN upscaling](https://i.postimg.cc/NMxcYG26/output-out.jpg)
 
 Nebula after ESRGAN upscaling
 
@@ -112,15 +112,15 @@ Nebula after ESRGAN upscaling
 - trained a style light GAN for 6000 epochs / 150000 epochs
 - the light weight GAN also generates additional images from the initial ones by modifying picture brightness, position and other parameters
 
-![6.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1dbab4b-5396-48b1-a25d-1498e014096b/6.jpg)
+![6.jpg](https://i.postimg.cc/X7YVj58p/6.jpg)
 
 - at about 6000 epochs the round shapes are starting to appear and colors look more realistic
 
-![Generated using light weight style GAN](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2a4ee6b3-b8c0-4466-9241-98ed5ba931b4/6-crop_auto_x2.jpg)
+![Generated using light weight style GAN](https://i.postimg.cc/t41pPH8b/6-crop-auto-x2.jpg)
 
 Generated using light weight style GAN
 
-![Real image of Pluto taken by NASA's New Horizons spacecraft in 2015 ](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c671141b-026b-4c6b-8948-1a505e890612/Untitled.png)
+![Real image of Pluto taken by NASA's New Horizons spacecraft in 2015 ](https://i.postimg.cc/0QnLFthZ/Untitled.png)
 
 Real image of Pluto taken by NASA's New Horizons spacecraft in 2015 
 
@@ -130,9 +130,9 @@ After finishing with planet generation we are applying ESRGAN for image enhancem
 
 Using upscaling to smoothen and change the resolution of the output image
 
-![Planet-ESRGAN(1).PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de71ae18-049a-4403-ba1d-321894b6fe40/Planet-ESRGAN(1).png)
+![Planet-ESRGAN(1).PNG](https://i.postimg.cc/BbQGvW2d/Planet-ESRGAN-1-PNG.png)
 
-![Second example](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0e3104c-8b45-4c9d-aa4f-936d4ded7149/Capture.png)
+![Second example](https://i.postimg.cc/C5PpBvNd/Capture-PNG.png)
 
 Second example
 
